@@ -14,16 +14,16 @@ alert("4" - "1"); // 3
 // -, *, / work with numbers
 
 // Explicit Conversion
-let num = Number("10");
+let num = Number(10);
 alert(num + 5); // 15
 
 // Anything from prompt is treated as string
-let age = prompt("Enter your age");
+let age2 = Number(prompt("Enter your age"));
 
-console.log(age); // string value
+console.log(age2); // string value
 
 // Convert string into number
-age = Number(age);
+let age3 = Number(prompt("Enter your age"));
 
-alert(age + 5); // 5 is added to the age
+alert(age3 + 5); // 5 is added to the age
 
